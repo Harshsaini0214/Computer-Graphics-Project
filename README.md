@@ -183,9 +183,9 @@ Through these implementations, I explored:
 
 ## 👨‍💻 Author
 
-**Harsh Saini**
+# Harsh Saini
 
-* Bachelor of Computer Applications(Artificial Intelligence & Machine Learning) 
+**Bachelor of Computer Applications(Artificial Intelligence & Machine Learning)** 
 
 Interested in C++, Computer Graphics, Software Development and Artificial Intelligence.
 
