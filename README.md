@@ -181,22 +181,11 @@ Through these implementations, I explored:
 
 ---
 
-## 🔮 Future Improvements
-
-- Adding more 2D and 3D graphical objects.
-- Implementing translation, rotation and scaling demonstrations.
-- Adding interactive object transformations.
-- Improving 3D rendering with lighting and shading.
-- Creating more realistic traffic simulations.
-- Adding mouse-based interaction.
-
----
-
 ## 👨‍💻 Author
 
 **Harsh Saini**
 
-BCA – Artificial Intelligence & Machine Learning
+* Bachelor of Computer Applications(Artificial Intelligence & Machine Learning) 
 
 Interested in C++, Computer Graphics, Software Development and Artificial Intelligence.
 
