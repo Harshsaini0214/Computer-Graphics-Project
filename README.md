@@ -103,7 +103,7 @@ Make sure you have installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/OpenGL-Computer-Graphics-Projects.git
+git clone https://github.com/Harshsaini0214/Computer-Graphics-Project
 ```
 
 ### Step 2: Open the Project
@@ -137,15 +137,15 @@ g++ traffic_light.cpp -o traffic_light.exe -lglfw3 -lopengl32 -lgdi32
 ### Step 4: Run the Programs
 
 ```bash
-./cube.exe
+./cube
 ```
 
 ```bash
-./house.exe
+./house
 ```
 
 ```bash
-./traffic_light.exe
+./traffic_light
 ```
 
 ---
