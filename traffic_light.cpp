@@ -129,8 +129,6 @@ void drawLights(int activeSignal)
     else
         drawCircle(-0.04f, 0.38f, 0.105f, 0.02f, 0.25f, 0.02f);
 }
-
-// Keyboard controls
 void keyCallback(GLFWwindow* window, int key,
                  int scancode, int action, int mods)
 {
@@ -154,8 +152,6 @@ void keyCallback(GLFWwindow* window, int key,
         }
     }
 }
-
-// Display simulation information in terminal
 void printSignalInfo(int signal, int remaining)
 {
     static int previousSignal = -1;
@@ -174,8 +170,6 @@ void printSignalInfo(int signal, int remaining)
             std::cout << "\nYELLOW LIGHT - WAIT\n";
     }
 }
-
-// Main function
 int main()
 {
     if (!glfwInit())
@@ -184,7 +178,6 @@ int main()
         return -1;
     }
 
-    // Request compatibility OpenGL context
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
 
@@ -204,10 +197,8 @@ int main()
     glfwMakeContextCurrent(window);
     glfwSetKeyCallback(window, keyCallback);
 
-    // Enable V-Sync
     glfwSwapInterval(1);
 
-    // Setup 2D projection
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
 
@@ -241,7 +232,6 @@ int main()
         else
             remaining = (int)ceil(TOTAL_TIME - cycleTime);
 
-        // Draw scene
         glMatrixMode(GL_MODELVIEW);
         glLoadIdentity();
 
@@ -251,7 +241,6 @@ int main()
 
         printSignalInfo(signal, remaining);
 
-        // Update window title with signal information
         std::string status;
 
         if (signal == 0)
